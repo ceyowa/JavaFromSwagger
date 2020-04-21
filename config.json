@@ -1,0 +1,11 @@
+{
+  "library": "retrofit2",
+  "useRxJava2": "true",
+  "developerName": "leix",
+  "developerEmail": "",
+  "developerOrganization": "albani.com",
+  "invokerPackage": "com.albani.app",
+  "modelPackage": "com.albani.app.data.entity",
+  "apiPackage": "com.albani.app.data.api",
+  "artifactId": "swagger-petstore-retrofit2"
+}
