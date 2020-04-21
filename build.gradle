@@ -7,11 +7,17 @@ group 'com.ceyowa'
 version '1.0-SNAPSHOT'
 
 repositories {
+    maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
     mavenCentral()
 }
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    implementation group: 'io.swagger', name: 'swagger-codegen-maven-plugin', version: '2.4.13'
+    implementation group: 'io.swagger', name: 'swagger-codegen-cli', version: '2.4.13'
+    implementation group: 'io.swagger', name: 'swagger-codegen-maven-plugin', version: '3.0.0-rc1'
+    implementation group: 'io.swagger', name: 'swagger-codegen-cli', version: '3.0.0-rc1'
 }
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
