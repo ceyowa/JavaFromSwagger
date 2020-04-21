@@ -1,0 +1,4 @@
+{
+  "targetFramework": "v4.5",
+  "packageName": "Captcha.CaptchaApiRpc"
+}

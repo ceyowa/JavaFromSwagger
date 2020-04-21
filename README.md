@@ -6,9 +6,12 @@ https://github.com/swagger-api/swagger-codegen
 
 
 # 生成代码命令行
+Java
 ```cmd
 java -jar swagger-codegen-cli-2.4.13.jar generate -i FeHelper-20200421170753.json -o client -l java -c config.json
 ```
+C#配置文件：[config_csharp.json](config_csharp.json)
+
 # 命令行帮助
 ```cmd
 java -jar swagger-codegen-cli-2.4.13.jar help	
