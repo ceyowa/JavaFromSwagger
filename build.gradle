@@ -14,16 +14,15 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
 
-    implementation group: 'io.swagger', name: 'swagger-codegen-maven-plugin', version: '2.4.13'
-    implementation group: 'io.swagger', name: 'swagger-codegen-cli', version: '2.4.13'
-    implementation group: 'io.swagger', name: 'swagger-codegen-maven-plugin', version: '3.0.0-rc1'
-    implementation group: 'io.swagger', name: 'swagger-codegen-cli', version: '3.0.0-rc1'
+    //implementation group: 'io.swagger', name: 'swagger-codegen-maven-plugin', version: '2.4.13'
+    //implementation group: 'io.swagger', name: 'swagger-codegen-cli', version: '2.4.13'
+    //implementation group: 'io.swagger', name: 'swagger-codegen-maven-plugin', version: '3.0.0-rc1'
+    //implementation group: 'io.swagger', name: 'swagger-codegen-cli', version: '3.0.0-rc1'
 }
-
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-//    version '2020.1'
-    localPath 'D:\\06Program\\JetBrains\\ideaIC-2020.1\\'
+    //version '2020.1'
+    localPath System.getenv('IDEA_IC_HOME')
 }
 patchPluginXml {
     changeNotes """
