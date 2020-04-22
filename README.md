@@ -6,11 +6,14 @@ https://github.com/swagger-api/swagger-codegen
 
 
 # 生成代码命令行
-Java
+Java命令行，配置文件：[config.json](config.json)
 ```cmd
 java -jar swagger-codegen-cli-2.4.13.jar generate -i FeHelper-20200421170753.json -o client -l java -c config.json
 ```
-C#配置文件：[config_csharp.json](config_csharp.json)
+C#命令行，配置文件：[config_csharp.json](config_csharp.json)
+```cmd
+java -jar swagger-codegen-cli-2.4.13.jar generate -i FeHelper-20200421170753.json -o client -l csharp -c config_csharp.json
+```
 
 # 命令行帮助
 ```cmd
@@ -35,4 +38,12 @@ implementation group: 'io.swagger', name: 'swagger-codegen-cli', version: '2.4.1
 
 
 # 参考资料
-https://juejin.im/entry/598d8eb86fb9a03c52459e2a
+[Swagger Codegen 自动生成Retrofit 代码](https://juejin.im/entry/598d8eb86fb9a03c52459e2a)
+
+
+# Idea社区版本及源代码地址：
+[社区版本下载地址](https://cache-redirector.jetbrains.com/www.jetbrains.com/intellij-repository/releases/com/jetbrains/intellij/idea/ideaIC/2020.1/ideaIC-2020.1.zip)
+
+[源代码下载地址](https://cache-redirector.jetbrains.com/www.jetbrains.com/intellij-repository/releases/com/jetbrains/intellij/idea/ideaIC/2020.1/ideaIC-2020.1-sources.jar)
+
+[GitHub地址](https://github.com/JetBrains/intellij-community/)
