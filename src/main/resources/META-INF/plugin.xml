@@ -18,9 +18,21 @@
 
     <actions>
         <!-- Add your actions here -->
-        <group id="MyPlugin.SampleMenu" text="Sample Menu" description="Sample menu">
-            <add-to-group group-id="MainMenu" anchor="last"  />
-            <action id="Myplugin.Textboxes" class="com.ceyowa.TextBoxes" text="Text Boxes" description="A test menu item" />
+        <group id="com.ceyowa.MenuGroup" text="Sample Menu" description="Sample menu" popup="true">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+            <action id="com.ceyowa.MenuGroup.Textboxes" class="com.ceyowa.PopupDialogAction" text="Text Boxes"
+                    description="A test menu item"
+                    icon="AllIcons.General.ErrorDialog">
+                <override-text place="MainMenu" text="Pop Dialog Action"/>
+                <keyboard-shortcut first-keystroke="control alt A" second-keystroke="C" keymap="$default"/>
+                <mouse-shortcut keystroke="control button3 doubleClick" keymap="$default"/>
+            </action>
+            <action id="com.ceyowa.MenuGroup.Textboxes1" class="com.ceyowa.PopupDialogAction" text="Text Boxes1"
+                    description="A test menu item1"/>
+        </group>
+        <group id="com.ceyowa.DynamicGroup" class="com.ceyowa.DynamicActionGroup" popup="true"
+               text="Dynamically Grouped Actions" description="SDK dynamically grouped action example" icon="AllIcons.General.ErrorDialog">
+            <add-to-group group-id="ToolsMenu" anchor="after" relative-to-action="com.ceyowa.MenuGroup"/>
         </group>
     </actions>
 </idea-plugin>
