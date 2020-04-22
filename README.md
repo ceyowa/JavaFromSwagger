@@ -38,12 +38,11 @@ implementation group: 'io.swagger', name: 'swagger-codegen-cli', version: '2.4.1
 
 
 # 参考资料
-[Swagger Codegen 自动生成Retrofit 代码](https://juejin.im/entry/598d8eb86fb9a03c52459e2a)
-
+[Swagger Codegen 自动生成Retrofit 代码](https://juejin.im/entry/598d8eb86fb9a03c52459e2a)  
+[Icon列表](https://jetbrains.design/intellij/resources/icons_list/)  
+[你们要的Intellij IDEA 插件开发秘籍，来了！](https://cloud.tencent.com/developer/article/1348741)  
 
 # Idea社区版本及源代码地址：
-[社区版本下载地址](https://cache-redirector.jetbrains.com/www.jetbrains.com/intellij-repository/releases/com/jetbrains/intellij/idea/ideaIC/2020.1/ideaIC-2020.1.zip)
-
-[源代码下载地址](https://cache-redirector.jetbrains.com/www.jetbrains.com/intellij-repository/releases/com/jetbrains/intellij/idea/ideaIC/2020.1/ideaIC-2020.1-sources.jar)
-
-[GitHub地址](https://github.com/JetBrains/intellij-community/)
+[社区版本下载地址](https://cache-redirector.jetbrains.com/www.jetbrains.com/intellij-repository/releases/com/jetbrains/intellij/idea/ideaIC/2020.1/ideaIC-2020.1.zip)  
+[源代码下载地址](https://cache-redirector.jetbrains.com/www.jetbrains.com/intellij-repository/releases/com/jetbrains/intellij/idea/ideaIC/2020.1/ideaIC-2020.1-sources.jar)  
+[GitHub地址](https://github.com/JetBrains/intellij-community/)  
