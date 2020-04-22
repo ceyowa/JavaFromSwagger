@@ -35,4 +35,8 @@
             <add-to-group group-id="ToolsMenu" anchor="after" relative-to-action="com.ceyowa.MenuGroup"/>
         </group>
     </actions>
+
+    <applicationListeners>
+        <!--<listener class="myPlugin.MyListenerClass" topic="BaseListenerInterface"/>-->
+    </applicationListeners>
 </idea-plugin>

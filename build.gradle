@@ -23,9 +23,18 @@ dependencies {
 intellij {
     //version '2020.1'
     localPath System.getenv('IDEA_IC_HOME')
+    //plugins 'org.intellij.plugins.markdown:8.5.0'
 }
 patchPluginXml {
     changeNotes """
       Add change notes here.<br>
       <em>most HTML tags may be used</em>"""
+}
+runIde{
+    //ideDirectory ''
+    //jbrVersion
+}
+
+publishPlugin {
+    channels 'beta'
 }
