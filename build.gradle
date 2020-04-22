@@ -22,7 +22,8 @@ dependencies {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version '2020.1'
+//    version '2020.1'
+    localPath 'D:\\06Program\\JetBrains\\ideaIC-2020.1\\'
 }
 patchPluginXml {
     changeNotes """

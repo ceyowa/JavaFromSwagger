@@ -18,5 +18,9 @@
 
     <actions>
         <!-- Add your actions here -->
+        <group id="MyPlugin.SampleMenu" text="Sample Menu" description="Sample menu">
+            <add-to-group group-id="MainMenu" anchor="last"  />
+            <action id="Myplugin.Textboxes" class="com.ceyowa.TextBoxes" text="Text Boxes" description="A test menu item" />
+        </group>
     </actions>
 </idea-plugin>
